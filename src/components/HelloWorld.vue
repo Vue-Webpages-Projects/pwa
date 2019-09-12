@@ -1,14 +1,24 @@
 <template>
   <div>
-    <h1>
-      Helo World!
-    </h1>
-    <h3>
-      this is my first pwa app
-    </h3>
-    <h3>
-      hope you like
-    </h3>
+    <b-container>
+      <b-row>
+        <b-col sm="12" md="4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quia voluptatem excepturi odit quae debitis in tempora modi ipsam sunt, dolor nisi veniam eaque? Veritatis illo nostrum, autem culpa ab quia. Ipsum sunt reprehenderit nobis harum itaque ea quos natus beatae, ut ipsa voluptatibus atque unde perferendis debitis repellendus distinctio?
+          </p>
+        </b-col>
+        <b-col sm="12" md="4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quia voluptatem excepturi odit quae debitis in tempora modi ipsam sunt, dolor nisi veniam eaque? Veritatis illo nostrum, autem culpa ab quia. Ipsum sunt reprehenderit nobis harum itaque ea quos natus beatae, ut ipsa voluptatibus atque unde perferendis debitis repellendus distinctio?
+          </p>
+        </b-col>
+        <b-col sm="12" md="4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quia voluptatem excepturi odit quae debitis in tempora modi ipsam sunt, dolor nisi veniam eaque? Veritatis illo nostrum, autem culpa ab quia. Ipsum sunt reprehenderit nobis harum itaque ea quos natus beatae, ut ipsa voluptatibus atque unde perferendis debitis repellendus distinctio?
+          </p>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
