@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-container>
-      <b-row>
+      <!-- <b-row>
         <b-col sm="12" md="4">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quia voluptatem excepturi odit quae debitis in tempora modi ipsam sunt, dolor nisi veniam eaque? Veritatis illo nostrum, autem culpa ab quia. Ipsum sunt reprehenderit nobis harum itaque ea quos natus beatae, ut ipsa voluptatibus atque unde perferendis debitis repellendus distinctio?
@@ -17,16 +17,27 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quia voluptatem excepturi odit quae debitis in tempora modi ipsam sunt, dolor nisi veniam eaque? Veritatis illo nostrum, autem culpa ab quia. Ipsum sunt reprehenderit nobis harum itaque ea quos natus beatae, ut ipsa voluptatibus atque unde perferendis debitis repellendus distinctio?
           </p>
         </b-col>
-      </b-row>
+      </b-row> -->
     </b-container>
+
+    <group />
+
+    <div style="height: 1000px"></div>
+
   </div>
 </template>
 
 <script>
+
+import Group from './Group.vue'
+
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  components: {
+    Group
   }
 }
 </script>
